@@ -1,0 +1,128 @@
+* {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 105%;
+	margin: -20px;
+}
+
+
+.nav {
+	transform: translateY(-9px);
+	background: #666;
+    height: 60px;
+    background: rgba(76,76,76,1);
+    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(43,43,43,1) 32%, rgba(19,19,19,1) 54%, rgba(38,36,38,1) 74%, rgba(102,102,102,1) 91%, rgba(102,102,102,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(32%, rgba(43,43,43,1)), color-stop(54%, rgba(19,19,19,1)), color-stop(74%, rgba(38,36,38,1)), color-stop(91%, rgba(102,102,102,1)), color-stop(100%, rgba(102,102,102,1)));
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(43,43,43,1) 32%, rgba(19,19,19,1) 54%, rgba(38,36,38,1) 74%, rgba(102,102,102,1) 91%, rgba(102,102,102,1) 100%);
+    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(43,43,43,1) 32%, rgba(19,19,19,1) 54%, rgba(38,36,38,1) 74%, rgba(102,102,102,1) 91%, rgba(102,102,102,1) 100%);
+    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(43,43,43,1) 32%, rgba(19,19,19,1) 54%, rgba(38,36,38,1) 74%, rgba(102,102,102,1) 91%, rgba(102,102,102,1) 100%);
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(43,43,43,1) 32%, rgba(19,19,19,1) 54%, rgba(38,36,38,1) 74%, rgba(102,102,102,1) 91%, rgba(102,102,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#666666', GradientType=1 );
+}
+
+.nav-ul {
+    transform: translate(27%, 20px);
+}
+
+.nav-a {
+	margin: 5px;
+	color: #bbb;
+	text-decoration: none;
+	font-size: 20px;
+	justify-content: center;
+}
+
+.nav-li {
+	display: inline-block;
+	color: #aaa;
+	padding: 7px 20px;
+	font-size: 20px;
+    transition: .5s;
+}
+
+
+.nav-li:hover {
+    background-color: #f5f5f5;
+    color: #111017;
+    border-radius: 30px;   
+}
+
+
+.nav-a:hover {
+    color: #111017;
+}
+
+
+/* Pagina */
+
+
+body {
+    background-color: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FFF1E5' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23FFFFFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23efefef' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23e0e0e0' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23d1d1d1' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23c2c2c2' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23b3b3b3' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23a5a5a5' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23969696' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23888888' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%237b7b7b' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%236d6d6d' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23606060' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23535353' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23464646' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%233a3a3a' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%232e2e2e' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23232323' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23181818' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.titulo {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+
+.contenedor-flex {
+    display: flexbox;
+    flex-direction: row;
+}
+
+
+.contenedor-flex {
+    display: flex;
+    width: auto;
+}
+
+
+.contenedor-flex:first-child {
+    transform: translate(70%, 90px);
+}   
+
+
+.contenedor-flex:last-child {
+    transform: translate(5%, 90px);
+}
+
+
+.imagen {
+    display: flex;
+    transform: translate(350px,-250px);
+    height: 220px;
+    width: auto;
+}
+
+
+.container {
+    transform: translateY(100px);
+}
+
+.texto-informacion h2{
+    font-size: 30px;
+}
+
+.texto-informacion{
+    font-size: 20px;
+}
+
+.flex-item1{
+    transform: translate(1000px,-570px);
+}
+
+.imagen:last-child {
+    transform: translate(1300px,-705px);
+}
